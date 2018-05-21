@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body onload="hideList()">
+        <div onclick="changeDivColor(div1)" id="div1">Click me to only change the background of this div</div>
+        <div onclick="changeDivColor(div2)" id="div2">Click me to only change the background of this div</div>
+        
+        <ul id="itemList">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+            <li>Five</li>
+        </ul>
+        <button onclick="showHide()" id="itemListBtn"><span id="btnTitle">Show</span></button>
+        <div id="counterMsg"></div>
+        <p>Button Clicks: <span id="counter">0</span></p>
+        
+        <!--Second Part-->
+        
+        <label for="">Enter your passphrase: </label><br>
+        <input id="userIn" type="text"><br>
+        <button onclick="checkInput()" id="checkBtn">Check Character Validity</button>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>

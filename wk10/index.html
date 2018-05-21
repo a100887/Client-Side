@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body onload="onStart()">
+        <div id="showList"></div>
+        <p>Write down the element which you want to search for (the first letter should be upper case while the remaining letters should be in lower case.)</p>
+        <input id="item" type="text">
+        <button onclick="extract()">Search</button>
+        <div id="msg"></div>
+        <br>
+        
+        <p>Please enter a set of comma seperated values. <br>These values will then be split as single items in an array</p>
+        <input placeholder="value 1, value 2, value 3" id="in2" type="text">
+        <button onclick="getValues()">Split</button>
+        <div id="generateIn"></div>
+        
+        <h2>Loops examples</h2>
+        <button onclick="multipleNine()">Multiplies of 9</button>
+        <div id="multi"></div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

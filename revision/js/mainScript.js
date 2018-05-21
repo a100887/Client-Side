@@ -1,0 +1,1 @@
+document.getElementById("navigation").innerHTML = "<ul><li><a class='active' href='welcome.html'>Welcome</a></li><li><a href='details.html'>Details</a></li></ul>";

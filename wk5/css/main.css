@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+div {
+    float: left;
+    margin-left: 100px;
+    
+}
+
+div input {
+    float: left;
+}
+
+div label {
+    width: 70px;
+    float: left;
+}
+
+
+
+p {
+    float: left;
+}
+
+

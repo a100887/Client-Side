@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body onload="start()">
+        
+        <h1>Working with Arrays</h1>
+        <p>Array length: <span id="arrayLen"></span></p>
+        
+        <p>Choose your preference of an array index:
+            <br>
+            <input id="from0" type="radio" name="index">Starting from 0
+            <br>
+            <input id="from1" value="from1" type="radio" name="index">Starting from 1
+        </p>
+        
+        <p>Enter the item's index to be viewed: 
+            <input id="userIndex" type="text">
+            <button onclick="getIndex()">Fetch</button>
+        </p>
+        
+        <p>Please enter your three favorite music artists:</p>
+        
+        <input id="in1" type="text">
+        <br>
+        <input id="in2" type="text">
+        <br>
+        <input id="in3" type="text">
+        <button onclick="getArtists()">Enter</button>
+        <br>
+        
+        <div id="showItem"></div>
+        <br>
+        <div id="showItemSorted"></div>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>

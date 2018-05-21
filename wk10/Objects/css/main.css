@@ -1,0 +1,25 @@
+label {
+    float: left;
+    width: 140px;
+    margin-top: 10px;
+}
+
+input {
+    float: left;
+    margin-top: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+#showDetails {
+    float: left;
+    margin-left: 500px;
+    
+}
+
+#leftDiv {
+    
+    float: left;
+}

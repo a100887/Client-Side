@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body onload="whenReady()">
+        <h1>Car Object</h1>
+        <p id="make">Make: </p>
+        <p id="model">Model: </p>
+        <p id="colour">Colour: </p>
+        <p id="year">Year: </p>
+        <br>
+        <button onclick="start()">Start</button>
+        <button onclick="drive()">Drive</button>
+        <button onclick="brake()">Brake</button>
+        <button onclick="stop()">Stop</button>
+        <br><br>
+        
+        <div id="leftDiv">
+            <h2>Registrations</h2>
+            <h3>New Registrations</h3>
+
+            <label for="">Full Name:</label>
+            <input id="name" type="text">
+            <br>
+            <div class="clear"></div>
+            <label for="">Email Address:</label>
+            <input id="email" type="email">
+            <br>
+            <div class="clear"></div>
+            <label for="">Age:</label>
+            <input id="age" type="number">
+            <br>
+            <div class="clear"></div>
+            <label for="">ID:</label>
+            <input id="id" type="text">
+            <div class="clear"></div>
+            <button onclick="getDetails()">Submit</button>
+        </div>
+
+        <div id="showDetails"><h1>Already Registered</h1></div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

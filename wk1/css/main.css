@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 200px;
+}
+
+.clear {
+	clear: both;
+}
+
+div {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.ulSqaure {
+	list-style-type: square;
+}
+
+.unorderedList, .unorderedList {
+	float: left;
+}
+
+nav {
+	background-color: darkgray;
+	padding: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+div img {
+    width: 150px;
+}
+
+div img a {
+    margin-top: 50px;
+}
+
+#description {
+    float: left;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <h1 id="msg"></h1>
+       <br>
+        <h1>This is a Temperature Conversion page</h1>
+        <br>
+        <div>
+            <label for="">Degrees</label>
+            <input id="deg" type="text">
+            <button onclick="toFarenheit()">Farenheit</button>
+        </div>
+        <br><br>
+        <div class="clear"></div>
+        
+        <div>
+            <label for="">Farenheit</label>
+            <input id="fh" type="text">
+            <button onclick="toDegrees()">Degrees</button>
+        </div>
+        <br><br>
+        <p id="s1">String 1: </p>
+        <br>
+        <p id="s2">String 2: </p>
+        <br>
+        <p id="s3">String 3: </p>
+        <br>
+        <p id="s4">String 4: </p>
+        <br>
+        <br>
+        <button onclick="convertP1()">Parse String 1 to Int</button>
+        <br><br><span id="p1"></span><br>
+        <button onclick="convertP2()">Parse String 2 to Int</button>
+        <br><br><span id="p2"></span><br>
+        <button onclick="convertP3()">Parse String 3 to Int</button>
+        <button onclick="convertP3F()">Parse String 3 to Float</button>
+        <br><br><span id="p3"></span><br>
+        <button onclick="convertP4()">Parse String 4 to Int</button>
+        <br><br><br><span id="p4"></span><br>
+        <script src="js/script.js"></script>
+    </body>
+</html>

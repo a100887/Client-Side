@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <h1>Working with numbers</h1>
+        <br><br>
+        <label class="lbl" for="">Addition</label>
+        <span id="addAns" class="spn"></span>
+        <button onclick="addition()" class="btn">Calculate</button>
+        <br><br>
+        
+        <div class="clear"></div>
+        
+        <label class="lbl" for="">Subtraction</label>
+        <span id="subAns" class="spn"></span>
+        <button onclick="subtract()" class="btn">Calculate</button>
+        <br><br>
+        
+        <div class="clear"></div>
+        
+        <label class="lbl" for="">Multiplication</label>
+        <span id="mulAns" class="spn"></span>
+        <button onclick="multiplication()" class="btn">Calculate</button>
+        <br><br>
+        
+        <div class="clear"></div>
+        
+        <label class="lbl" for="">Division</label>
+        <span id="divAns" class="spn"></span>
+        <button onclick="division()" class="btn">Calculate</button>
+        <br><br>
+        
+        <div class="clear"></div>
+        
+        <label class="lbl" for="">Power</label>
+        <span id="pwrAns" class="spn"></span>
+        <button onclick="pow()" class="btn">Calculate</button>
+        <br><br>
+        
+        <div class="clear"></div>
+        
+        <label class="lbl" for="">Modulus</label>
+        <span id="modAns" class="spn"></span>
+        <button onclick="mod()" class="btn">Calculate</button>
+        <br><br>
+        
+        <div class="clear"></div>
+        
+        <label class="lbl" for="">Area</label>
+        <span id="areaAns" class="spn"></span>
+        <button onclick="area()" class="btn">Calculate</button>
+        <br><br>
+        
+        <div class="clear"></div>
+        
+        <label class="lbl" for="">Square Perimeter</label>
+        <span id="sqrAns" class="spn"></span>
+        <button onclick = "perimeter()" class="btn">Calculate</button>
+        <br><br>
+        
+        <table>
+            <tr>
+                <th>Method</th>
+                <th>Result</th>
+            </tr>
+            
+            <tr>
+                <td>parseInt()</td>
+                <td id="int"></td>
+            </tr>
+            
+            <tr>
+                <td>ceil()</td>
+                <td id="ceil"></td>
+            </tr>
+            
+            <tr>
+                <td>floor()</td>
+                <td id="floor"></td>
+            </tr>
+            
+            <tr>
+                <td>round()</td>
+                <td id="round"></td>
+            </tr>
+        </table>
+        <br><br><br>
+        
+        <h2>Function Examples</h2>
+        <h4>indexOf and parameters</h4>
+        <p id="string">Word: </p>
+        <p>Enter a character or a substring taken from the above quote: </p>
+        <input id="stringIn" type="text">
+        <button onclick="getWord()">Find Position</button> 
+        <br><br>
+        <div id="indexOfAns"></div>  
+            
+        <div id="date"></div>
+             
+        <script src="js/script.js"></script>
+    </body>
+</html>
